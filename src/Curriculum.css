@@ -1,0 +1,110 @@
+.curriculum-container {
+  color: white;
+  height: 1000px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.discover-projects-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.discover-projects-text {
+  color: #b18742;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.circle {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 10px;
+  border-radius: 50%;
+  width: 10px;
+}
+
+.line {
+  border-left: 1px solid white;
+  height: 80px;
+}
+
+.git {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.year {
+  display: flex;
+  font-weight: bold;
+}
+.experience-right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.right {
+  height: 180px;
+}
+.first-left {
+  margin-top: 90px;
+  height: 90px;
+}
+.left {
+  height: 90px;
+  margin-top: 90px;
+}
+.experience-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 30px;
+}
+.experience-sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.curriculum-title {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+  margin-left: 150px;
+  margin-right: 15px;
+}
+.linkedin-icon {
+  cursor: pointer;
+  margin-top: 13px;
+}
+
+.curriculum-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.curriculum-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+.curriculum-text {
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .curriculum-container {
+    height: 800px;
+  }
+  .curriculum-title {
+    margin-left: 40px;
+    font-size: 40px;
+  }
+}

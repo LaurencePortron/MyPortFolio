@@ -1,0 +1,41 @@
+.introduction-section {
+  height: 1000px;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+
+.introduction-message,
+.introduction-description {
+  color: #bbb6a5;
+  margin-top: 40px;
+}
+
+.introduction-message {
+  font-family: Inter, sans-serif;
+  font-size: 60px;
+  line-height: 100px;
+  font-weight: 900;
+}
+
+.introduction-description {
+  font-size: 20px;
+}
+
+.learn-more-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.learn-more-text {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .introduction-section {
+    margin-left: 40px;
+  }
+}
