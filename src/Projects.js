@@ -47,7 +47,10 @@ export default function Projects(props) {
             <p>React + Express/My SQL</p>
           </div>
         </div>
-        <div className='card'>
+        <div
+          className='card'
+          onClick={() => window.open('http://www.space4kids.ovh/', '_blank')}
+        >
           <img src={tripperSrc} alt='Avatar' className='image' />
           <div className='container'>
             <h4>
