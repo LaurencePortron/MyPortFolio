@@ -7,7 +7,9 @@
   display: flex;
   justify-content: flex-start;
   font-family: Inter, sans-serif;
-  color: white;
+  background-image: linear-gradient(to right, #b18742, white);
+  background-clip: text;
+  color: transparent;
   font-size: 60px;
   line-height: 100px;
   font-weight: 900;
@@ -22,8 +24,11 @@
 
 @media screen and (max-width: 600px) {
   .contact-container {
-    margin-left: 40px;
-    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 500px;
   }
   .contact-title {
     font-size: 40px;

@@ -5,7 +5,7 @@ import { AiOutlineLinkedin } from 'react-icons/ai';
 
 export default function Curriculum(props) {
   return (
-    <div>
+    <div className='curriculum'>
       <div className='curriculum-title-container'>
         <div className='curriculum-title'>Work History</div>
         <div
@@ -23,13 +23,13 @@ export default function Curriculum(props) {
 
       <div className='curriculum-container'>
         <div className='curriculum-text-container'>
-          <div lassName='curriculum-text'>
+          <div className='curriculum-text'>
             With solid experience in customer relations, I recently transitioned
             to web development. <br />
             After being at the frontline of a product, I am eager to have a
             maximum impact on its core.
-            <br /> Energetic and determined, I am looking for an internship
-            starting in March 2021.
+            <br /> Energetic and determined, I am now looking for my first work
+            experience (internship).
           </div>
           <div className='discover-projects-section'>
             <a href='#projects' className='discover-projects-text'>
@@ -68,7 +68,7 @@ export default function Curriculum(props) {
         </div>
         <div className='experience-right'>
           <div className='right'>
-            <div className='year'>2020</div>
+            <div className='year'>2020 - 2021</div>
             <div className='wild'>Wild Code School</div>
             <div>Apprenticeship web development</div>
           </div>

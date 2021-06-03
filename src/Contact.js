@@ -10,6 +10,7 @@ export default function Contact(props) {
         amazing job opportunity for me?
         <br /> Well then feel free to reach out: portron.laurence@gmail.com
         <br />
+        <br />
         Talk to you soon!&#x1f44b;
       </div>
     </div>

@@ -11,21 +11,19 @@ body {
 
 .header a {
   float: left;
-  background-image: linear-gradient(to left, #bbb6a5, white);
-  background-clip: text;
-  color: transparent;
+  /* background-image: linear-gradient(to left, #b18742, white);
+  background-clip: text; */
+  color: white;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-family: Inter, sans-serif;
   font-size: 20px;
-  /* font-weight: 900; */
   margin-right: 10px;
 }
 
 .header a:hover {
   text-decoration: underline;
-  color: white;
+  color: #b8a079;
 }
 
 .header a:focus {
@@ -38,13 +36,7 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .header-right {
-    float: none;
+  .header {
+    display: none;
   }
 }

@@ -12,13 +12,21 @@
 
 .introduction-message {
   font-family: Inter, sans-serif;
-  font-size: 60px;
+  background-image: linear-gradient(to right, #b18742, white);
+  background-clip: text;
+  color: transparent;
+  font-size: 80px;
   line-height: 100px;
   font-weight: 900;
 }
 
 .introduction-description {
-  font-size: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 .learn-more-section {
@@ -29,13 +37,18 @@
 }
 
 .learn-more-text {
-  color: white;
+  color: #b18742;
   margin-right: 20px;
   text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
   .introduction-section {
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 600px;
+  }
+  .introduction-message {
+    font-size: 40px;
   }
 }

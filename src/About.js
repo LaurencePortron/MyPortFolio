@@ -9,13 +9,16 @@ export default function About(props) {
   return (
     <div>
       <div className='introduction-section' id='home'>
-        <div className='introduction-message'>Hi, I'm Laurence.</div>
+        <h1 className='introduction-message'>Hi, I'm Laurence.</h1>
         <div className='introduction-description'>Web & Mobile Developer</div>
+        <p>
+          This portfolio gives you a brief introduction about me and my work{' '}
+        </p>
         <div className='learn-more-section'>
           <a href='#about' className='learn-more-text'>
             Learn more
           </a>
-          <ChevronRight color='white' size={24} />
+          <ChevronRight color='#b18742' size={24} />
         </div>
       </div>
       <div>
