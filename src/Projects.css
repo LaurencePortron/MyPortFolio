@@ -45,11 +45,15 @@
 
 .tech-description {
   font-weight: bold;
-  color: #6fc3d8;
+  color: #78e4ff;
+}
+
+.ticketin-paragraph {
+  font-size: 18px;
 }
 
 .ticketing-section h2 {
-  color: #e457df;
+  color: #ff48fa;
 }
 
 .tripper {
@@ -70,13 +74,14 @@
 }
 .tripper-section h2 {
   margin-left: 50px;
-  color: #e457df;
+  color: #ff48fa;
 }
 
 .tripper-section p {
   margin-left: 50px;
 }
 .tripper-pitch {
+  margin-top: 50px;
   font-style: italic;
 }
 

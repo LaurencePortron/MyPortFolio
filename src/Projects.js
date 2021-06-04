@@ -28,7 +28,7 @@ export default function Projects(props) {
             React.js/Node.js (Express.js, MySQL)
           </p>
 
-          <p>
+          <p className='ticketin-paragraph'>
             During my time as a customer support agent or even as a team lead I
             logically used different ticketing systems. Among great tools I
             often found missing features so I decided to kind of combine those
@@ -42,8 +42,8 @@ export default function Projects(props) {
         <div className='tripper'>
           <h2>Tripper</h2>
           <p className='tech-description'>React Native, Firebase, FireStore</p>
-          <p>
-            Tripper first started as a 24h individual hackathon a my
+          <p className='ticketin-paragraph'>
+            Tripper first started as a 24h individual hackathon during my
             apprenticeship. First it was a really basic app in which you could
             add trips and associate activities. <br /> I really wanted to take
             it further and it seemed logical to me to completely switch to a

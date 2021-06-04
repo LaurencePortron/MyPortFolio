@@ -14,7 +14,7 @@
 
 .introduction-message {
   font-family: Inter, sans-serif;
-  background-image: linear-gradient(180deg, #78e4ff, #ff48fa);
+  background-image: linear-gradient(190deg, #78e4ff, #ff48fa);
   background-clip: text;
   color: transparent;
   font-size: 80px;
@@ -33,8 +33,7 @@
 
 .introduction-description {
   font-family: Inter, sans-serif;
-
-  color: #a86284;
+  color: #78e4ff;
   font-size: 30px;
   font-weight: 700;
 }
@@ -43,17 +42,31 @@ p {
   color: white;
 }
 
-.learn-more-section {
+.discover-projects-button {
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 5px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #1d1e20 inset;
 }
 
-.learn-more-text {
-  color: #3d99af;
+.discover-projects-textbutton {
+  color: white;
   margin-right: 20px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {

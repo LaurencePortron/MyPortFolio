@@ -17,7 +17,7 @@ function App() {
         <a href='#home' className='back-to-top-text'>
           Back to Top
         </a>
-        <ArrowUpCircle color='white' size={24} />
+        <ArrowUpCircle color='#ff48fa' size={24} />
       </div>
     </div>
   );

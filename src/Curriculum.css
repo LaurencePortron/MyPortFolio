@@ -73,12 +73,14 @@
   height: 90px;
   margin-top: 90px;
 }
+
 .experience-left {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-right: 30px;
 }
+
 .experience-sections {
   display: flex;
   flex-direction: column;
@@ -113,6 +115,7 @@
 }
 .curriculum-text {
   text-align: justify;
+  font-size: 18px;
 }
 
 .why-text {

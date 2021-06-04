@@ -14,18 +14,19 @@ export default function About(props) {
           From working in top start ups such as Zendesk or Airbnb, <br />I
           recently transitioned to web development.
         </div>
-        <div className='learn-more-section'>
-          <a href='#about' className='learn-more-text'>
-            See my work history
+        {/* <button className='discover-projects-button'>
+          <a href='#curriculum' className='discover-projects-textbutton'>
+            See work history
           </a>
-          <ArrowRight color='#3d99af' size={24} />
-        </div>
-        <div className='learn-more-section'>
-          <a href='#projects' className='learn-more-text'>
+          <ArrowRight color='white' size={24} />
+        </button> */}
+
+        <button className='discover-projects-button'>
+          <a href='#projects' className='discover-projects-textbutton'>
             Discover my projects
           </a>
-          <ArrowRight color='#3d99af' size={24} />
-        </div>
+          <ArrowRight color='white' size={24} />
+        </button>
       </div>
       <div>
         <div id='about'>

@@ -21,15 +21,10 @@ body {
 }
 
 .header a:hover {
-  text-decoration: underline;
   background-image: linear-gradient(180deg, #78e4ff, #ff48fa);
   background-clip: text;
   color: transparent;
-}
-
-.header a:focus {
   text-decoration: underline;
-  color: white;
 }
 
 .header-right {

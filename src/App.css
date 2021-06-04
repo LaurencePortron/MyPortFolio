@@ -8,8 +8,9 @@
   padding: 40px;
 }
 .back-to-top-text {
-  color: white;
+  color: #ff48fa;
   font-size: 20px;
+  font-weight: bold;
   margin-right: 10px;
   text-decoration: none;
 }
