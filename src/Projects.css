@@ -13,7 +13,7 @@
 .project-title {
   display: flex;
   justify-content: flex-start;
-  background-image: linear-gradient(to right, #b18742, white);
+  background-image: linear-gradient(101deg, #78e4ff, #ff48fa);
   background-clip: text;
   color: transparent;
   font-weight: bold;
@@ -28,6 +28,9 @@
 
 .project-text {
   margin-top: 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .container {
@@ -40,12 +43,17 @@
   margin-top: 50px;
 }
 
-.tripper {
-  flex: 1;
+.tech-description {
+  font-weight: bold;
+  color: #6fc3d8;
 }
 
-.ticketing-section p {
-  color: white;
+.ticketing-section h2 {
+  color: #e457df;
+}
+
+.tripper {
+  flex: 1;
 }
 
 .tripper-section {
@@ -60,18 +68,60 @@
 .tripper-section img {
   width: 60%;
 }
-.tripper-section p,
 .tripper-section h2 {
   margin-left: 50px;
-  color: white;
+  color: #e457df;
 }
 
+.tripper-section p {
+  margin-left: 50px;
+}
+.tripper-pitch {
+  font-style: italic;
+}
+
+blockquote p {
+  content: '“';
+  font-size: 1em;
+  color: #ea4c89;
+  font-weight: 600;
+  left: -0.5em;
+  top: -0.25em;
+  line-height: 1;
+}
 .ticketing-section img {
   width: 60%;
 }
 
 .image-space {
   margin: 10px;
+}
+
+.hireme-button {
+  display: flex;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 5px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #78e4ff, #ff48fa);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #1d1e20 inset;
+}
+
+.hireme-text {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import { ChevronRight } from 'react-feather';
+import { ArrowRight } from 'react-feather';
 import Curriculum from './Curriculum';
 import Projects from './Projects';
 import Contact from './Contact';
@@ -10,15 +10,21 @@ export default function About(props) {
     <div>
       <div className='introduction-section' id='home'>
         <h1 className='introduction-message'>Hi, I'm Laurence.</h1>
-        <div className='introduction-description'>Web & Mobile Developer</div>
-        <p>
-          This portfolio gives you a brief introduction about me and my work{' '}
-        </p>
+        <div className='introduction-description'>
+          From working in top start ups such as Zendesk or Airbnb, <br />I
+          recently transitioned to web development.
+        </div>
         <div className='learn-more-section'>
           <a href='#about' className='learn-more-text'>
-            Learn more
+            See my work history
           </a>
-          <ChevronRight color='#b18742' size={24} />
+          <ArrowRight color='#3d99af' size={24} />
+        </div>
+        <div className='learn-more-section'>
+          <a href='#projects' className='learn-more-text'>
+            Discover my projects
+          </a>
+          <ArrowRight color='#3d99af' size={24} />
         </div>
       </div>
       <div>

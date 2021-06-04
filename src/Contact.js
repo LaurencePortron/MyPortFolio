@@ -4,14 +4,15 @@ import './Contact.css';
 export default function Contact(props) {
   return (
     <div className='contact-container'>
-      <div className='contact-title '>Contact Me</div>
+      <div className='contact-title '>Reach out..</div>
       <div className='contact-text'>
-        Are you interested to get in touch because you just have the most
-        amazing job opportunity for me?
-        <br /> Well then feel free to reach out: portron.laurence@gmail.com
+        Sure look..
+        <br /> I may not be the most experienced web developer but suerly I am
+        super motivated!!
         <br />
         <br />
-        Talk to you soon!&#x1f44b;
+        <p className='email-text'>So what are you waiting for.. ?</p>
+        <p>portron.laurence@gmail.com</p>
       </div>
     </div>
   );
