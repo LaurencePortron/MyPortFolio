@@ -28,7 +28,7 @@
 
 .project-text {
   margin-top: 60px;
-  color: white;
+  color: #ff48fa;
   font-size: 20px;
   font-weight: 700;
 }
@@ -45,7 +45,7 @@
 
 .tech-description {
   font-weight: bold;
-  color: #78e4ff;
+  color: white;
 }
 
 .ticketin-paragraph {
@@ -53,7 +53,8 @@
 }
 
 .ticketing-section h2 {
-  color: #ff48fa;
+  color: #78e4ff;
+  font-size: 30px;
 }
 
 .tripper {
@@ -74,7 +75,8 @@
 }
 .tripper-section h2 {
   margin-left: 50px;
-  color: #ff48fa;
+  color: #78e4ff;
+  font-size: 30px;
 }
 
 .tripper-section p {

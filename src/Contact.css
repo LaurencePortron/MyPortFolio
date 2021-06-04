@@ -20,15 +20,15 @@
   text-align: justify;
   font-family: Inter, sans-serif;
   color: white;
+  font-size: 18px;
 }
 
 .email-text {
   display: flex;
   justify-content: flex-start;
   font-family: Inter, sans-serif;
-  background-image: linear-gradient(to right, #3d99af, #a86284);
-  background-clip: text;
-  color: transparent;
+
+  color: #78e4ff;
   font-size: 30px;
   font-weight: 900;
 }
