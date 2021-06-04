@@ -48,6 +48,7 @@ export default function Curriculum(props) {
               GitBook
             </div>
             <div>Customer Support Team Lead</div>
+            <div className='year'>France, Lyon</div>
             <div className='year'>2018 - 2020</div>
           </div>
           <div className='left'>
@@ -56,6 +57,7 @@ export default function Curriculum(props) {
               Airbnb (VoxPro)
             </div>
             <div>Sales executive</div>
+            <div className='year'>Ireland, Cork</div>
             <div className='year'>2016 - 2017</div>
           </div>
           <div className='left'>
@@ -83,6 +85,7 @@ export default function Curriculum(props) {
               Wild Code School
             </div>
             <div>Apprenticeship web development</div>
+            <div className='year'>France, Lyon</div>
             <div className='year'>2020 - 2021</div>
           </div>
           <div className='right'>
@@ -91,6 +94,7 @@ export default function Curriculum(props) {
               Zendesk
             </div>
             <div>Sales Development Rep</div>
+            <div className='year'>Ireland, Dublin</div>
             <div className='year'>2018</div>
           </div>
           <div className='right'>
@@ -99,6 +103,7 @@ export default function Curriculum(props) {
               TravelZoo (VoxPro)
             </div>
             <div>Customer support rep</div>
+            <div className='year'>Ireland, Cork</div>
             <div className='year'>2016</div>
           </div>
         </div>

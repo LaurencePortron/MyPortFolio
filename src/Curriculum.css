@@ -47,7 +47,7 @@
 .year {
   display: flex;
   font-size: 12px;
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
 .company {
@@ -58,6 +58,7 @@
   background-clip: text;
   color: transparent;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .company img {
