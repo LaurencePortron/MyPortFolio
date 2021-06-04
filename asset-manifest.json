@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e24a952.chunk.css",
-    "main.js": "/static/js/main.9f68e0db.chunk.js",
-    "main.js.map": "/static/js/main.9f68e0db.chunk.js.map",
+    "main.css": "/static/css/main.27d6b562.chunk.css",
+    "main.js": "/static/js/main.b327943c.chunk.js",
+    "main.js.map": "/static/js/main.b327943c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.22ba1b53.js",
     "runtime-main.js.map": "/static/js/runtime-main.22ba1b53.js.map",
     "static/js/2.7dbbe79f.chunk.js": "/static/js/2.7dbbe79f.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5b0eafe2.chunk.js": "/static/js/3.5b0eafe2.chunk.js",
     "static/js/3.5b0eafe2.chunk.js.map": "/static/js/3.5b0eafe2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9e24a952.chunk.css.map": "/static/css/main.9e24a952.chunk.css.map",
+    "static/css/main.27d6b562.chunk.css.map": "/static/css/main.27d6b562.chunk.css.map",
     "static/js/2.7dbbe79f.chunk.js.LICENSE.txt": "/static/js/2.7dbbe79f.chunk.js.LICENSE.txt",
     "static/media/Tripper.9b72fe57.png": "/static/media/Tripper.9b72fe57.png",
     "static/media/TripperO.bbe5927f.png": "/static/media/TripperO.bbe5927f.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.22ba1b53.js",
     "static/js/2.7dbbe79f.chunk.js",
-    "static/css/main.9e24a952.chunk.css",
-    "static/js/main.9f68e0db.chunk.js"
+    "static/css/main.27d6b562.chunk.css",
+    "static/js/main.b327943c.chunk.js"
   ]
 }
