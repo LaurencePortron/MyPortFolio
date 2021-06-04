@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/LaurencePortron/MyPortFolio/static/css/main.21949fdc.chunk.css",
+    "main.js": "/LaurencePortron/MyPortFolio/static/js/main.ed901505.chunk.js",
+    "main.js.map": "/LaurencePortron/MyPortFolio/static/js/main.ed901505.chunk.js.map",
+    "runtime-main.js": "/LaurencePortron/MyPortFolio/static/js/runtime-main.1468d6d6.js",
+    "runtime-main.js.map": "/LaurencePortron/MyPortFolio/static/js/runtime-main.1468d6d6.js.map",
+    "static/js/2.ddc5ff9a.chunk.js": "/LaurencePortron/MyPortFolio/static/js/2.ddc5ff9a.chunk.js",
+    "static/js/2.ddc5ff9a.chunk.js.map": "/LaurencePortron/MyPortFolio/static/js/2.ddc5ff9a.chunk.js.map",
+    "static/js/3.5b0eafe2.chunk.js": "/LaurencePortron/MyPortFolio/static/js/3.5b0eafe2.chunk.js",
+    "static/js/3.5b0eafe2.chunk.js.map": "/LaurencePortron/MyPortFolio/static/js/3.5b0eafe2.chunk.js.map",
+    "index.html": "/LaurencePortron/MyPortFolio/index.html",
+    "static/css/main.21949fdc.chunk.css.map": "/LaurencePortron/MyPortFolio/static/css/main.21949fdc.chunk.css.map",
+    "static/js/2.ddc5ff9a.chunk.js.LICENSE.txt": "/LaurencePortron/MyPortFolio/static/js/2.ddc5ff9a.chunk.js.LICENSE.txt",
+    "static/media/Tripper.9b72fe57.png": "/LaurencePortron/MyPortFolio/static/media/Tripper.9b72fe57.png",
+    "static/media/TripperO.bbe5927f.png": "/LaurencePortron/MyPortFolio/static/media/TripperO.bbe5927f.png",
+    "static/media/ticketing.7df77f0c.png": "/LaurencePortron/MyPortFolio/static/media/ticketing.7df77f0c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1468d6d6.js",
+    "static/js/2.ddc5ff9a.chunk.js",
+    "static/css/main.21949fdc.chunk.css",
+    "static/js/main.ed901505.chunk.js"
+  ]
+}
