@@ -20,13 +20,17 @@ export default function About(props) {
           </a>
           <ArrowRight color='white' size={24} />
         </button> */}
-
-        <button className='discover-projects-button'>
-          <a href='#projects' className='discover-projects-textbutton'>
-            Discover my projects
+        <div className='buttons-section'>
+          <button className='discover-projects-button'>
+            <a href='#projects' className='discover-projects-textbutton'>
+              Discover my projects
+            </a>
+            <ArrowRight color='white' size={24} />
+          </button>
+          <a href='#contact' className='opps-button'>
+            Or contact me for opportunities
           </a>
-          <ArrowRight color='white' size={24} />
-        </button>
+        </div>
       </div>
       <div>
         <div id='about'>

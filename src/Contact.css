@@ -21,15 +21,21 @@
   font-family: Inter, sans-serif;
   color: white;
   font-size: 18px;
+  font-family: Inter, sans-serif;
+}
+
+.final-text {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .email-text {
   display: flex;
   justify-content: flex-start;
   font-family: Inter, sans-serif;
-
   color: #78e4ff;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 900;
 }
 
