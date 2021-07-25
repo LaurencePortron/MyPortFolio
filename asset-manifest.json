@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb9bf876.chunk.css",
-    "main.js": "/static/js/main.1cdbd4eb.chunk.js",
-    "main.js.map": "/static/js/main.1cdbd4eb.chunk.js.map",
+    "main.css": "/static/css/main.82b35c17.chunk.css",
+    "main.js": "/static/js/main.65fa0e9b.chunk.js",
+    "main.js.map": "/static/js/main.65fa0e9b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.22ba1b53.js",
     "runtime-main.js.map": "/static/js/runtime-main.22ba1b53.js.map",
     "static/js/2.7dbbe79f.chunk.js": "/static/js/2.7dbbe79f.chunk.js",
@@ -10,19 +10,21 @@
     "static/js/3.5b0eafe2.chunk.js": "/static/js/3.5b0eafe2.chunk.js",
     "static/js/3.5b0eafe2.chunk.js.map": "/static/js/3.5b0eafe2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fb9bf876.chunk.css.map": "/static/css/main.fb9bf876.chunk.css.map",
+    "static/css/main.82b35c17.chunk.css.map": "/static/css/main.82b35c17.chunk.css.map",
     "static/js/2.7dbbe79f.chunk.js.LICENSE.txt": "/static/js/2.7dbbe79f.chunk.js.LICENSE.txt",
     "static/media/Tripper.9b72fe57.png": "/static/media/Tripper.9b72fe57.png",
     "static/media/TripperO.bbe5927f.png": "/static/media/TripperO.bbe5927f.png",
     "static/media/airbnb.19e1df27.png": "/static/media/airbnb.19e1df27.png",
+    "static/media/myProfile.c044e2ac.png": "/static/media/myProfile.c044e2ac.png",
     "static/media/ticketing.7df77f0c.png": "/static/media/ticketing.7df77f0c.png",
+    "static/media/wall.e751489a.png": "/static/media/wall.e751489a.png",
     "static/media/wild.e855178b.png": "/static/media/wild.e855178b.png",
     "static/media/zendesk.46bc337b.png": "/static/media/zendesk.46bc337b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.22ba1b53.js",
     "static/js/2.7dbbe79f.chunk.js",
-    "static/css/main.fb9bf876.chunk.css",
-    "static/js/main.1cdbd4eb.chunk.js"
+    "static/css/main.82b35c17.chunk.css",
+    "static/js/main.65fa0e9b.chunk.js"
   ]
 }
