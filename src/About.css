@@ -78,4 +78,8 @@ p {
   .introduction-message {
     font-size: 40px;
   }
+
+  .discover-projects-textbutton {
+    text-align: justify;
+  }
 }

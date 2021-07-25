@@ -64,7 +64,7 @@ export default function Curriculum(props) {
             <div className='company'>Rocket launched </div>&#128640;
           </div>
         </div>
-        <div className='git'>
+        <section className='git'>
           <div className='circle'></div>
           <div className='line'></div>
           <div className='circle'></div>
@@ -76,11 +76,10 @@ export default function Curriculum(props) {
           <div className='circle'></div>
           <div className='line'></div>
           <div className='circle'></div>
-        </div>
-        <div className='experience-right'>
+        </section>
+        <section className='experience-right'>
           <div className='right'>
             <div className='company'>
-              {' '}
               <img src={Wild} alt='wild-logo' />
               Wild Code School
             </div>
@@ -106,7 +105,7 @@ export default function Curriculum(props) {
             <div className='year'>Ireland, Cork</div>
             <div className='year'>2016</div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );
