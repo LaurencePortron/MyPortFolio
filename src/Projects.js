@@ -5,6 +5,8 @@ import { GitHub } from 'react-feather';
 import ticketing from './ticketing.png';
 import Tripper from './Tripper.png';
 import TripperO from './TripperO.png';
+import MyProfile from './myProfile.png';
+import Wall from './wall.png';
 
 export default function Projects(props) {
   return (
@@ -58,15 +60,6 @@ export default function Projects(props) {
               trips!” <br />
             </p>
           </blockquote>
-          {/* <p>
-            - Navigate through active, past & upcoming trips <br />
-            - See all relevant trip info with a single click <br />
-            - Create a trip & add all necessary details (location, duration,
-            activities, friend invites, etc..)
-            <br />- Leave async inApp posts to keep friends updated (possible
-            inApp/email notifications)
-            <br />- Split all trip costs between participants <br />
-          </p> */}
         </div>
         <div className='tripper-images'>
           <img src={TripperO} alt='tripperO' />
@@ -74,6 +67,36 @@ export default function Projects(props) {
           <img src={Tripper} alt='tripper' />
         </div>
       </section>
+
+      <section className='social-section'>
+        <div className='social'>
+          <h2>Social</h2>
+          <p className='tech-description'>
+            React Native, Firebase (FireStore, Storage, Cloud Functions,
+            Algolia)
+          </p>
+          <p className='ticketin-paragraph'>
+            Bored on a saturday night, I started working on a Facebook alike
+            app. <br /> <br /> First time using cloud functions, the storage of
+            Firebase and the implementation of Algolia. A whole bunch of new
+            things I learned, it is actually really exciting.
+          </p>
+          <p className='ticketin-paragraph'>
+            Bringing in the new aspect of having multiple users in the app, can
+            be a bit challenging at some stages since a lot of different
+            scenarios need to be considered depending on the actions a user
+            wants to undertake. It was (still is) really fun though and I
+            totally enjoy it!!
+            <br /> <br />
+          </p>
+        </div>
+        <div className='tripper-images'>
+          <img src={MyProfile} alt='myProfile' />
+          <div className='image-space'></div>
+          <img src={Wall} alt='wall' />
+        </div>
+      </section>
+
       <button className='hireme-button'>
         <a href='#contact' className='hireme-text'>
           Hire me

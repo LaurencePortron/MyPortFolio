@@ -1,7 +1,7 @@
 .project-container {
   color: white;
   margin-left: 150px;
-  height: 1500px;
+  height: 2500px;
 }
 
 .project-title-container {
@@ -61,20 +61,39 @@
   flex: 1;
 }
 
+.social {
+  flex: 1;
+  margin-right: 50px;
+}
+
 .tripper-section {
   display: flex;
   flex-direction: row-reverse;
   margin-right: 100px;
   margin-top: 50px;
 }
+
+.social-section {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  margin-top: 50px;
+}
 .tripper-images {
   display: flex;
 }
-.tripper-section img {
+
+.tripper-section img,
+.social-section img {
   width: 60%;
 }
 .tripper-section h2 {
   margin-left: 50px;
+  color: #78e4ff;
+  font-size: 30px;
+}
+
+.social-section h2 {
   color: #78e4ff;
   font-size: 30px;
 }
@@ -106,7 +125,7 @@ blockquote p {
 
 .hireme-button {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 10px;
   padding: 1rem;
   font-size: 1rem;
@@ -137,7 +156,7 @@ blockquote p {
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
-    height: 1800px;
+    height: 2500px;
   }
 
   .project-title {
@@ -154,7 +173,8 @@ blockquote p {
     width: 100%;
   }
 
-  .tripper-section {
+  .tripper-section,
+  .social-section {
     display: flex;
     flex-direction: column;
     margin-right: 0px;
@@ -162,7 +182,9 @@ blockquote p {
   }
 
   .tripper-section p,
-  .tripper-section h2 {
+  .tripper-section h2,
+  .social-section p,
+  .social-section h2 {
     margin-left: 0;
   }
   .tripper-images {
@@ -173,5 +195,8 @@ blockquote p {
   }
   .tripper-images img {
     width: 50%;
+  }
+  .hireme-button {
+    width: 60%;
   }
 }
