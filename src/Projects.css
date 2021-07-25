@@ -159,9 +159,6 @@ blockquote p {
     height: 2500px;
   }
 
-  .project-title {
-    font-size: 40px;
-  }
   .ticketing-section {
     display: flex;
     flex-direction: column;
