@@ -1,7 +1,7 @@
 .project-container {
   color: white;
   margin-left: 150px;
-  height: 2500px;
+  height: 2600px;
 }
 
 .project-title-container {
@@ -11,15 +11,15 @@
 }
 
 .project-title {
-  display: flex;
-  justify-content: flex-start;
-  background-image: linear-gradient(101deg, #78e4ff, #ff48fa);
+  font-family: Inter, sans-serif;
+  background-image: linear-gradient(190deg, #78e4ff, #ff48fa);
+  -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-weight: bold;
   font-size: 60px;
-  margin-right: 15px;
-  -webkit-text-fill-color: #ff48fa;
+  line-height: 100px;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 .github-icon {
@@ -151,13 +151,51 @@ blockquote p {
   margin-right: 10px;
 }
 
+.api-section {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.api-description {
+  font-weight: bold;
+  color: white;
+}
+
+.api h2 {
+  color: #78e4ff;
+  font-size: 30px;
+}
+
+.api-paragraph {
+  font-size: 18px;
+}
+
+.api-images {
+  display: flex;
+}
+.api-section img {
+  width: 50%;
+  height: 50%;
+}
+
+.api-section img:first-child {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 600px) {
   .project-container {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
-    height: 2500px;
+    height: 3300px;
+  }
+
+  .project-text {
+    margin-top: 0px;
   }
 
   .project-title {
@@ -169,7 +207,8 @@ blockquote p {
     display: flex;
     flex-direction: column;
     margin-right: 0px;
-    text-align: justify;
+    text-align: left;
+    margin-top: 00px;
   }
 
   .ticketing-section img {
@@ -181,7 +220,7 @@ blockquote p {
     display: flex;
     flex-direction: column;
     margin-right: 0px;
-    text-align: justify;
+    text-align: left;
     margin-top: 30px;
   }
 
@@ -202,5 +241,17 @@ blockquote p {
   }
   .hireme-button {
     width: 70%;
+  }
+  .api-section {
+    margin-right: 0px;
+  }
+
+  .api-images {
+    flex-direction: column;
+  }
+
+  .api-images img {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

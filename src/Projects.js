@@ -7,6 +7,8 @@ import Tripper from './Tripper.png';
 import TripperO from './TripperO.png';
 import MyProfile from './myProfile.png';
 import Wall from './wall.png';
+import Playlist from './playlist.png';
+import SpotSearch from './spotSearch.png';
 
 export default function Projects(props) {
   return (
@@ -94,6 +96,27 @@ export default function Projects(props) {
           <img src={MyProfile} alt='myProfile' />
           <div className='image-space'></div>
           <img src={Wall} alt='wall' />
+        </div>
+      </section>
+
+      <section className='api-section'>
+        <div className='api'>
+          <h2>Spotify API</h2>
+          <p className='api-description'>
+            React, Spotify API (Express, Fetch-Node)
+          </p>
+          <p className='api-paragraph'>
+            It's been a while since I worked with APIs, so I started doing a
+            Spotify clone using their API. Basic features like adding playlists,
+            adding songs to playlists and searching for songs and/or artists are
+            already implemented but now I am looking to explore it to its
+            fullest.
+          </p>
+        </div>
+        <div className='api-images'>
+          <img src={Playlist} alt='Playlist' />
+          <div className='api-space'></div>
+          <img src={SpotSearch} alt='SpotSearch' />
         </div>
       </section>
 
