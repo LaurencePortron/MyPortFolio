@@ -102,9 +102,7 @@ export default function Projects(props) {
       <section className='api-section'>
         <div className='api'>
           <h2>Spotify API</h2>
-          <p className='api-description'>
-            React, Spotify API (Express, Fetch-Node)
-          </p>
+          <p className='api-description'>React, Spotify API (Express)</p>
           <p className='api-paragraph'>
             It's been a while since I worked with APIs, so I started doing a
             Spotify clone using their API. Basic features like adding playlists,
